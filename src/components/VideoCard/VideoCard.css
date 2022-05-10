@@ -1,0 +1,26 @@
+.video {
+  width: 275px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.video video {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.video__details p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.video__tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 0.8rem;
+  gap: 0.2rem;
+}
